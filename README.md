@@ -30,5 +30,5 @@ Via TestNG XML:
 3- write mvn -DsuiteXmlFile="Test Runner/Functional_Testing.xml" test
 
 ##Test Reports
-After execution, open test-output/index.html in your browser to view the TestNG report.
+After execution, open TestOutput/target/surefire-reports in your browser to view the TestNG report.
 
