@@ -1,0 +1,11 @@
+Pages\Page6_PaymentMethodPage.class
+Pages\Page3_ProductPage.class
+Utilities\DataUtil.class
+Pages\Page5_ShippingPage.class
+Utilities\Utility.class
+DriverFactory\driverFactory.class
+Pages\Page4_CartPage.class
+Pages\Page1_HomePage.class
+Pages\Page2_SearchResult.class
+Pages\Page7_PurchaseSuccessPage.class
+Utilities\LogsUtil.class

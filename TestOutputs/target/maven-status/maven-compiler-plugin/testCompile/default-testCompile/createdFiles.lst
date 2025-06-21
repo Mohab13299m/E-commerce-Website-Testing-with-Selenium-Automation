@@ -1,0 +1,5 @@
+Tests\TC2_AddingItemsToCart.class
+Listeners\InvokedMethod.class
+Tests\TC3_CheckoutProcess.class
+Listeners\Itest.class
+Tests\TC1_EnterProductName.class
