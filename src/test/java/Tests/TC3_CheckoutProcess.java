@@ -47,7 +47,7 @@ public class TC3_CheckoutProcess {
      */
     @BeforeMethod
     public void setup() throws IOException {
-        LogsUtil.info("Chrome Driver is opened");
+        LogsUtil.info("Edge Driver is opened");
         setupDriver(getPropertiesData("enviroments", "Browser"));
         getDriver().get(getPropertiesData("enviroments", "Home_URL"));
         LogsUtil.info("Page is redirected to url");
@@ -90,8 +90,8 @@ public class TC3_CheckoutProcess {
     /**
      * Quits the WebDriver after each test.
      */
-    @AfterMethod
+  /*  @AfterMethod
     public void quit() {
         quitdriver();
-    }
+    }*/
 }

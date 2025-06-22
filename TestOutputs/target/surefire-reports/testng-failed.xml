@@ -5,15 +5,15 @@
     <listener class-name="Listeners.Itest"/>
     <listener class-name="Listeners.InvokedMethod"/>
   </listeners>
-  <test thread-count="5" name="Functional Test on Chrome(failed)" verbose="0">
+  <test thread-count="5" name="Functional Test on edge(failed)" verbose="0">
     <classes>
       <class name="Tests.TC1_EnterProductName">
         <methods>
           <include name="setup"/>
-          <include name="quit"/>
           <include name="InValid_Search_TC1"/>
+          <include name="quit"/>
         </methods>
       </class> <!-- Tests.TC1_EnterProductName -->
     </classes>
-  </test> <!-- Functional Test on Chrome(failed) -->
+  </test> <!-- Functional Test on edge(failed) -->
 </suite> <!-- Failed suite [Functional Suite] -->

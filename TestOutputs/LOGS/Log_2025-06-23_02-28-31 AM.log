@@ -1,0 +1,21 @@
+[INFO] 23-06-2025 02:28:31 [main] [Tests.TC1_EnterProductName.setup(TC1_EnterProductName.java:54)] - Edge Driver is opened
+[INFO] 23-06-2025 02:29:32 [main] [Tests.TC1_EnterProductName.setup(TC1_EnterProductName.java:57)] - Page is redirected to url
+[INFO] 23-06-2025 02:29:33 [main] [Listeners.Itest.onTestStart(Itest.java:21)] - Test CaseInValid_Search_TC1 started
+[INFO] 23-06-2025 02:29:51 [main] [Listeners.InvokedMethod.afterInvocation(InvokedMethod.java:28)] - Test CaseInValid_Search_TC1 failed
+[INFO] 23-06-2025 02:30:03 [main] [Tests.TC2_AddingItemsToCart.setup(TC2_AddingItemsToCart.java:35)] - Edge Driver is opened
+[INFO] 23-06-2025 02:30:59 [main] [Tests.TC2_AddingItemsToCart.setup(TC2_AddingItemsToCart.java:38)] - Page is redirected to url
+[INFO] 23-06-2025 02:30:59 [main] [Listeners.Itest.onTestStart(Itest.java:21)] - Test CaseAdd_Item_to_cart_TC started
+[INFO] 23-06-2025 02:31:18 [main] [Listeners.Itest.onTestSuccess(Itest.java:31)] - Test CaseAdd_Item_to_cart_TC passed
+[INFO] 23-06-2025 02:31:18 [main] [Tests.TC3_CheckoutProcess.setup(TC3_CheckoutProcess.java:50)] - Edge Driver is opened
+[INFO] 23-06-2025 02:31:53 [main] [Tests.TC3_CheckoutProcess.setup(TC3_CheckoutProcess.java:53)] - Page is redirected to url
+[INFO] 23-06-2025 02:31:53 [main] [Listeners.Itest.onTestStart(Itest.java:21)] - Test CaseValid_Checkout started
+[INFO] 23-06-2025 02:32:14 [main] [Listeners.InvokedMethod.afterInvocation(InvokedMethod.java:28)] - Test CaseValid_Checkout failed
+[ERROR] 23-06-2025 02:32:14 [main] [Utilities.Utility.takeScreenshots(Utility.java:82)] - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=137.0.3296.93)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [5422bc784bf9d0d8dedd572a97c222fe, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52947}, msedge: {msedgedriverVersion: 137.0.3296.93 (114b4a913acd..., userDataDir: C:\Users\Orange\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52947/devtoo..., se:cdpVersion: 137.0.3296.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5422bc784bf9d0d8dedd572a97c222fe

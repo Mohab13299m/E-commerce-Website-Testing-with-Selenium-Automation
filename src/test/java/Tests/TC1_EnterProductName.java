@@ -7,6 +7,7 @@ import Pages.Page1_HomePage;
 
 import Utilities.DataUtil;
 import Utilities.LogsUtil;
+import Utilities.Utility;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
@@ -50,7 +51,7 @@ public class TC1_EnterProductName {
      */
     @BeforeMethod
     public void setup() throws IOException {
-        LogsUtil.info("Chrome Driver is opened");
+        LogsUtil.info("Edge Driver is opened");
         setupDriver(getPropertiesData("enviroments", "Browser"));
         getDriver().get(getPropertiesData("enviroments", "Home_URL"));
         LogsUtil.info("Page is redirected to url");

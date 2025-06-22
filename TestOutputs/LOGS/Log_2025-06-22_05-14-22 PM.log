@@ -1,0 +1,4 @@
+[INFO] 22-06-2025 17:14:22 [main] [Tests.TC2_AddingItemsToCart.setup(TC2_AddingItemsToCart.java:39)] - Chrome Driver is opened
+[INFO] 22-06-2025 17:14:27 [main] [Tests.TC2_AddingItemsToCart.setup(TC2_AddingItemsToCart.java:42)] - Page is redirected to url
+[INFO] 22-06-2025 17:14:28 [main] [Listeners.Itest.onTestStart(Itest.java:21)] - Test CaseAdd_Item_to_cart_TC started
+[INFO] 22-06-2025 17:14:44 [main] [Listeners.InvokedMethod.afterInvocation(InvokedMethod.java:28)] - Test CaseAdd_Item_to_cart_TC failed

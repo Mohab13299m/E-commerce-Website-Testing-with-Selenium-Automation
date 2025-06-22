@@ -7,6 +7,10 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+
+import java.io.File;
+import java.nio.file.Paths;
 
 public class driverFactory {
     // ThreadLocal to ensure each thread has its own WebDriver instance
@@ -23,14 +27,17 @@ public class driverFactory {
         switch (browser.toLowerCase()){
             case "chrome":
                 ChromeOptions chromeoptions = new ChromeOptions();
-                chromeoptions.addArguments("--start-maximized");
+                chromeoptions.addExtensions(new File("extensions/ublock_lite.crx"));// Add uBlock Lite extension
+                chromeoptions.addArguments("--start-maximized"); // it will open the browser in Maxmize
                 driverThreadLocal.set(new ChromeDriver(chromeoptions));
                 break;
             case "firefox":
+                FirefoxOptions firefoxOptions = new FirefoxOptions();
                 driverThreadLocal.set(new FirefoxDriver());
                 break;
             default:
                 EdgeOptions edgeoptions = new EdgeOptions();
+                edgeoptions.addExtensions(new File("extensions/ublock_lite.crx"));
                 edgeoptions.addArguments("--start-maximized");// it will open the browser in Maxmize mode
                 driverThreadLocal.set(new EdgeDriver(edgeoptions));
         }

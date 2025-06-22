@@ -32,7 +32,7 @@ public class TC2_AddingItemsToCart {
      */
     @BeforeMethod
     public void setup() throws IOException {
-        LogsUtil.info("Chrome Driver is opened");
+        LogsUtil.info("Edge Driver is opened");
         setupDriver(getPropertiesData("enviroments", "Browser"));
         getDriver().get(getPropertiesData("enviroments", "Home_URL"));
         LogsUtil.info("Page is redirected to url");
@@ -49,7 +49,7 @@ public class TC2_AddingItemsToCart {
     @Test
     public void Add_Item_to_cart_TC() throws IOException {
         new Page1_HomePage(getDriver())
-                .click_on_Product_No(1)
+                 .click_on_Product_No(1)
                 .Choose_Attributes("xs","second color")
                 .Add_To_Cart();
         Assert.assertTrue(new Page3_ProductPage(getDriver()).Verify_Success_Message(),

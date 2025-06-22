@@ -82,6 +82,11 @@ public class Utility {
             LogsUtil.Error(e.getMessage());
         }
     }
+    /**
+     * Accepts a JavaScript confirmation dialog.
+     * @param driver The WebDriver instance.
+     */
+
 
     /**
      * Presses the Enter key on a web element located by the given locator.
@@ -103,6 +108,21 @@ public class Utility {
     //TODO: General Wait
     public static WebDriverWait GeneralWait(WebDriver driver) {
         return new WebDriverWait(driver, Duration.ofSeconds(10));
+    }
+
+
+    public static void switch_to_Original_Window(WebDriver driver) {
+        String originalHandle = driver.getWindowHandle();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        for (String handle : driver.getWindowHandles()) {
+            driver.switchTo().window(handle);
+            String title = driver.getTitle().toLowerCase();
+            String url = driver.getCurrentUrl();
+            if (title.contains("adblock") || url.contains("getadblock")) {
+                driver.close();
+            }
+            driver.switchTo().window(originalHandle);
+        }
     }
 
 }

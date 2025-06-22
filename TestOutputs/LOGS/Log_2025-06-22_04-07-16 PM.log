@@ -1,0 +1,21 @@
+[INFO] 22-06-2025 16:07:16 [main] [Tests.TC1_EnterProductName.setup(TC1_EnterProductName.java:53)] - Chrome Driver is opened
+[INFO] 22-06-2025 16:07:42 [main] [Tests.TC1_EnterProductName.setup(TC1_EnterProductName.java:56)] - Page is redirected to url
+[INFO] 22-06-2025 16:07:43 [main] [Listeners.Itest.onTestStart(Itest.java:21)] - Test CaseInValid_Search_TC1 started
+[INFO] 22-06-2025 16:08:05 [main] [Listeners.InvokedMethod.afterInvocation(InvokedMethod.java:28)] - Test CaseInValid_Search_TC1 failed
+[INFO] 22-06-2025 16:08:10 [main] [Tests.TC2_AddingItemsToCart.setup(TC2_AddingItemsToCart.java:35)] - Chrome Driver is opened
+[INFO] 22-06-2025 16:08:40 [main] [Tests.TC2_AddingItemsToCart.setup(TC2_AddingItemsToCart.java:38)] - Page is redirected to url
+[INFO] 22-06-2025 16:08:40 [main] [Listeners.Itest.onTestStart(Itest.java:21)] - Test CaseAdd_Item_to_cart_TC started
+[INFO] 22-06-2025 16:08:51 [main] [Listeners.InvokedMethod.afterInvocation(InvokedMethod.java:28)] - Test CaseAdd_Item_to_cart_TC failed
+[INFO] 22-06-2025 16:08:57 [main] [Tests.TC3_CheckoutProcess.setup(TC3_CheckoutProcess.java:50)] - Chrome Driver is opened
+[INFO] 22-06-2025 16:09:08 [main] [Tests.TC3_CheckoutProcess.setup(TC3_CheckoutProcess.java:53)] - Page is redirected to url
+[INFO] 22-06-2025 16:09:08 [main] [Listeners.Itest.onTestStart(Itest.java:21)] - Test CaseValid_Checkout started
+[INFO] 22-06-2025 16:09:19 [main] [Listeners.InvokedMethod.afterInvocation(InvokedMethod.java:28)] - Test CaseValid_Checkout failed
+[ERROR] 22-06-2025 16:09:19 [main] [Utilities.Utility.takeScreenshots(Utility.java:82)] - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.120)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7c9046b4386eb388c187803ceb85b5a4, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\Orange\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55276}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55276/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c9046b4386eb388c187803ceb85b5a4

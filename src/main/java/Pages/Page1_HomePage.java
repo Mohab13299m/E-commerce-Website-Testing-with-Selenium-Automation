@@ -51,9 +51,9 @@ public class Page1_HomePage {
      * @param productNo the product number to click
      * @return this page object for chaining
      */
-    public Page3_ProductPage click_on_Product_No(int i)
+    public Page3_ProductPage click_on_Product_No(int productNo)
     {
-        By Product = By.xpath("(//div[contains(@class,'product-item-info')])[" + i + "]");
+        By Product = By.xpath("(//div[contains(@class,'product-item-info')])[" + productNo + "]");
         Utility.clickonElement(driver, Product);
         return new Page3_ProductPage(driver);
     }

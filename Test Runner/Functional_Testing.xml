@@ -3,7 +3,7 @@
         <listener class-name="Listeners.Itest"/>
         <listener class-name="Listeners.InvokedMethod"/>
     </listeners>
-    <test name="Functional Test on Chrome">
+    <test name="Functional Test on edge">
         <classes>
             <class name="Tests.TC1_EnterProductName"/>
             <class name="Tests.TC2_AddingItemsToCart"/>
