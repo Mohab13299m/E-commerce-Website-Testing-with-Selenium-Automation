@@ -14,6 +14,7 @@ Automated functional tests for an e-commerce website using Java, Maven, Selenium
 - `src/main/java` - Source code (utilities, listeners, Pages, driver factory)
 - `src/test/java` - Test classes
 - `Test Runner/Functional_Testing.xml` - TestNG suite configuration
+- 'extensions/ublock_lite.crx' - Ad Blocker Extension
 - `TestOutput/target/surefire-reports' - TestNG HTML reports
 
 ## Setup
