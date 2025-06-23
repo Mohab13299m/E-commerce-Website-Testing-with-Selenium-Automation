@@ -1,4 +1,0 @@
-[INFO] 23-06-2025 02:17:05 [main] [Tests.TC1_EnterProductName.setup(TC1_EnterProductName.java:54)] - Edge Driver is opened
-[INFO] 23-06-2025 02:17:36 [main] [Tests.TC1_EnterProductName.setup(TC1_EnterProductName.java:57)] - Page is redirected to url
-[INFO] 23-06-2025 02:17:37 [main] [Listeners.Itest.onTestStart(Itest.java:21)] - Test CaseInValid_Search_TC1 started
-[INFO] 23-06-2025 02:17:54 [main] [Listeners.InvokedMethod.afterInvocation(InvokedMethod.java:28)] - Test CaseInValid_Search_TC1 failed

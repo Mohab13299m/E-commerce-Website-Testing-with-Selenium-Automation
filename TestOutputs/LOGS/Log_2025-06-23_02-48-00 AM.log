@@ -1,4 +1,0 @@
-[INFO] 23-06-2025 02:48:01 [main] [Tests.TC3_CheckoutProcess.setup(TC3_CheckoutProcess.java:50)] - Edge Driver is opened
-[INFO] 23-06-2025 02:48:25 [main] [Tests.TC3_CheckoutProcess.setup(TC3_CheckoutProcess.java:53)] - Page is redirected to url
-[INFO] 23-06-2025 02:48:26 [main] [Listeners.Itest.onTestStart(Itest.java:21)] - Test CaseValid_Checkout started
-[INFO] 23-06-2025 02:48:54 [main] [Listeners.Itest.onTestSuccess(Itest.java:31)] - Test CaseValid_Checkout passed

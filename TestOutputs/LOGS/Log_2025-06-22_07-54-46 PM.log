@@ -1,5 +1,0 @@
-[INFO] 22-06-2025 19:54:46 [main] [Tests.TC2_AddingItemsToCart.setup(TC2_AddingItemsToCart.java:35)] - Chrome Driver is opened
-[INFO] 22-06-2025 19:54:46 [main] [Listeners.InvokedMethod.afterInvocation(InvokedMethod.java:28)] - Test Casesetup failed
-[ERROR] 22-06-2025 19:54:46 [main] [Utilities.Utility.takeScreenshots(Utility.java:82)] - Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "driver" is null
-[INFO] 22-06-2025 19:54:47 [main] [Listeners.Itest.onTestStart(Itest.java:21)] - Test CaseAdd_Item_to_cart_TC started
-[INFO] 22-06-2025 19:54:47 [main] [Listeners.Itest.onTestSkipped(Itest.java:41)] - Test CaseAdd_Item_to_cart_TC skipped
